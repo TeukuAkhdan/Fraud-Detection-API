@@ -58,9 +58,9 @@ Poryek ini berfokus pada Fraud Detection menggunakan Machine Learning. Berikut a
 ![Workflow](https://github.com/TeukuAkhdan/Fraud-Detection-API/blob/master/image/Diagram%20worklflow.drawio.png?raw=true)
 ## Menjalankan Proyek dengan Docker <br>
    
-Untuk menjalankan proyek menggunakan Docker, ikuti langkah-langkah di bawah ini... <br>
+Untuk menjalankan proyek menggunakan Docker, ikuti langkah-langkah di bawah ini. <br>
    
-## Langkah-langkah <br>
+### Langkah-langkah <br>
    
 
 1. **Membangun Image Docker:** <br>
