@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 # params = load_params("config/config.yaml")
 app = FastAPI(
     title="Machine Learning - Fraud detector API",
-    description="ML API to detect if a credit card transaction is fraudulent or not",
+    description="ML API mendeteksi suatu transaksi kartu kredit penipuan atau tidak",
     version="0.0.1",
     debug=True
 )
