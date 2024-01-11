@@ -30,6 +30,12 @@ RUN pip install -r requirement.txt
 EXPOSE 8000 8501
 
 # CMD to run FastAPI and Streamlit with training
+<<<<<<< HEAD
 CMD ["sh", "-c", "python training.py && uvicorn main:app --host 0.0.0.0 --port 8000 --reload & streamlit run --server.port 8501 app.py"]
 # CMD to run FastAPI and Streamlit Without training
 # CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port 8000 --reload & streamlit run --server.port 8501 app.py"]
+=======
+# CMD ["sh", "-c", "python training.py && uvicorn main:app --host 0.0.0.0 --port 8000 --reload & streamlit run --server.port 8501 app.py"]
+# CMD to run FastAPI and Streamlit Without training
+CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port 8000 --reload & streamlit run --server.port 8501 app.py"]
+>>>>>>> dc12d1b40bcfe7468f396524d77ce5f36ce07c40

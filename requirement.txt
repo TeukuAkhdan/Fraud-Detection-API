@@ -2,7 +2,11 @@ pandas==1.4.1
 joblib==1.2.0
 PyYAML==6.0
 tqdm==4.66.1
+<<<<<<< HEAD
 gdown==4.3.0
+=======
+gdown==4.7.1
+>>>>>>> dc12d1b40bcfe7468f396524d77ce5f36ce07c40
 scikit-learn==1.2.0
 xgboost==2.0.2
 streamlit==1.29.0
