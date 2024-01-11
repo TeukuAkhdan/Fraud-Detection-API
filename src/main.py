@@ -49,11 +49,7 @@ def inference(data: DataValidation):
         features = data.dict()
         features = pd.DataFrame(features, index=[0])
         list_num, list_object = splitNumCat(features)
-<<<<<<< HEAD
         encoder_col = {'type': ['CASH_IN', 'CASH_OUT', 'TRANSFER', 'PAYMENT', 'DEBIT']}
-=======
-        encoder_col = {'type': ['CASH_IN', 'CASH_OUT', 'DEBIT', 'PAYMENT', 'TRANSFER']}
->>>>>>> dc12d1b40bcfe7468f396524d77ce5f36ce07c40
         feature_clean = onehot(data=features, col_cat=list_object, col_num=list_num, encoder_col=encoder_col) 
         pred = model.predict(feature_clean)
         pred_prob = model.predict_proba(feature_clean)

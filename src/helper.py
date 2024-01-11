@@ -43,11 +43,7 @@ def download_file_to_dataframe(file_id):
     # Temporary file path
     temp_filepath = "temp_data.csv"
 
-<<<<<<< HEAD
     gdown.download(f"https://drive.google.com/uc?id={file_id}&confirm=t", temp_filepath)
-=======
-    gdown.download(f"https://drive.google.com/uc?id={file_id}", temp_filepath, quiet=False)
->>>>>>> dc12d1b40bcfe7468f396524d77ce5f36ce07c40
 
     # Load the content of the file into a DataFrame
     df = pd.read_csv(temp_filepath)
