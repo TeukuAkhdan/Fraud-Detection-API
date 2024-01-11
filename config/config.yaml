@@ -1,0 +1,15 @@
+# Path Configuration
+# data directory and path
+# model
+XGBoost_model :
+- models/train/XGB_model_default_train.pkl
+- models/tuning/XGB_model_tuning_param.pkl
+- models/tuning/XGB_model_final.pkl
+
+
+output_column_name : 
+- isFraud
+list_drop_column : 
+- nameOrig
+- nameDest
+- isFlaggedFraud
