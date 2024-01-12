@@ -57,8 +57,22 @@ Poryek ini berfokus pada Fraud Detection menggunakan Machine Learning. Berikut a
 # Proyek Workflow <br>
 ![Workflow](https://github.com/TeukuAkhdan/Fraud-Detection-API/blob/master/image/Diagram%20worklflow.drawio.png?raw=true)
 ## Menjalankan Proyek dengan Docker <br>
-   
-Untuk menjalankan proyek menggunakan Docker, ikuti langkah-langkah di bawah ini. <br>
+Sebelum menjalankan proyek ini, pastikan komputer Anda memiliki spesifikasi yang layak, karena proses Docker ini akan menjalankan ulang training.py.
+![Screenshots](https://github.com/TeukuAkhdan/Fraud-Detection-API/blob/master/image/Screenshot%20usage%20.png?raw=true)
+
+Untuk menjalankan proyek menggunakan Docker ada dua opsi yang bisa dilakukan, diantaranya:
+1. **Menjalankan Docker dengan training** <br>
+   Jalankan Dockerfile dengan perintah berikut, pada baris 33: <br>
+   ```
+   CMD ["sh", "-c", "python training.py && uvicorn main:app --host 0.0.0.0 --port 8000 --reload & streamlit run --server.port 8501 app.py"]
+   ```
+2. **Menjalan Docker hanya FastAPI & Streamlit** <br>
+   Jalan Dockerfile dengan command ini, pada line 35 <br>
+   ```
+   CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port 8000 --reload & streamlit run --server.port 8501 app.py"]
+   ```
+![code](https://github.com/TeukuAkhdan/Fraud-Detection-API/blob/master/image/Screenshot%20code.png?raw=true)
+Perlu diingat jika ingin menjalankan hanya bisa salah satu command yang dijalankan maka dari itu silahkan berikan Comment **#** pada salah satu line 33 atau line 35, sesuaikan dengan keinginan. Jika sudah, maka bisa dilakukan menjalankan Docker di terminal, ikuti langkah-langkah di bawah ini. <br>
    
 ### Langkah-langkah <br>
    
