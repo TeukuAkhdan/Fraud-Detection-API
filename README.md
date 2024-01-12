@@ -104,3 +104,6 @@ Akses Proyek: <br>
 ![Streamlit](https://github.com/TeukuAkhdan/Fraud-Detection-API/blob/master/image/Fraud_Detection_streamlit_prediction.png?raw=true)
    
 Pastikan untuk mengganti `nama_image` dengan nama yang relevan atau sesuai dengan keinginan Anda. Langkah-langkah ini akan membangun image Docker dari proyek deteksi penipuan Anda dan menjalankan container untuk mengakses API dan aplikasi Streamlit melalui port yang telah ditetapkan.
+
+Jika code diatas tidak berjalan, maka dapat akses dalam link dibawah ini <br>
+https://akhdan-project-krhnjjdena-et.a.run.app/
