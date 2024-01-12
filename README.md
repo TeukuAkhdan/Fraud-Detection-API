@@ -105,5 +105,5 @@ Akses Proyek: <br>
    
 Pastikan untuk mengganti `nama_image` dengan nama yang relevan atau sesuai dengan keinginan Anda. Langkah-langkah ini akan membangun image Docker dari proyek deteksi penipuan Anda dan menjalankan container untuk mengakses API dan aplikasi Streamlit melalui port yang telah ditetapkan.
 
-Jika code diatas tidak berjalan, maka dapat akses dalam link dibawah ini <br>
+Jika code diatas tidak berjalan, maka dapat akses dalam link dibawah ini. Project ini sudah deploy di google cloudrun <br>
 https://akhdan-project-krhnjjdena-et.a.run.app/
